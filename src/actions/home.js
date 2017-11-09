@@ -27,9 +27,5 @@ export function fetchPlansSuccess(PLANS) {
   };
 }
 
-export function fetchPlansFailure(error) {
-  return {
-    type: FETCH_PLANS_FAILURE,
-    payload: error
-  };
+
 }
